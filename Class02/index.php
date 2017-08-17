@@ -8,9 +8,9 @@
         <?php
         
             // Testando instancias de objetos tipo Caneta
-            require_once 'Caneta.php';
+            require_once 'Pen.php';
             
-            $c1 = new Caneta;
+            $c1 = new Pen;
             $c1->modelo = "Bic Cristal";
             $c1->cor = "Azul";
             $c1->ponta = 0.5;
@@ -22,7 +22,7 @@
             echo "<br/>";
             echo "<hr>";
             
-            $c2 = new Caneta;
+            $c2 = new Pen;
             $c2->modelo = "Vibe";
             $c2->cor = "Verde";
             $c2->ponta = 0.8;
