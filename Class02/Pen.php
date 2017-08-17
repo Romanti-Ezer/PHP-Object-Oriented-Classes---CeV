@@ -2,7 +2,7 @@
 
 class Caneta {
     var $modelo;
-    var $cor;
+    var $color;
     var $ponta;
     var $carga;
     var $tampada;
