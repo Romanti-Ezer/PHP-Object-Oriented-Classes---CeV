@@ -7,83 +7,83 @@
     <body>
         <?php
         
-            // Testando instancias de objetos tipo Caneta
+            // Testing objects instances - Pen Class
             require_once 'Pen.php';
             
-            $c1 = new Pen;
-            $c1->modelo = "Bic Cristal";
-            $c1->color = "Azul";
-            $c1->ponta = 0.5;
-            $c1->carga = 70;
-            $c1->tampada = true;
-            $c1->destampar();
-            print_r($c1);
+            $pen1 = new Pen;
+            $pen1->mode = "Bic Cristal";
+            $pen1->color = "Blue";
+            $pen1->tip = 0.5;
+            $pen1->load_percent = 70;
+            $pen1->covered = true;
+            $pen1->uncover();
+            print_r($pen1);
             
             echo "<br/>";
             echo "<hr>";
             
-            $c2 = new Pen;
-            $c2->modelo = "Vibe";
-            $c2->color = "Verde";
-            $c2->ponta = 0.8;
-            $c2->carga = 50;
-            $c2->tampar();
+            $pen2 = new Pen;
+            $pen2->model = "Vibe";
+            $pen2->color = "Green";
+            $pen2->tip = 0.8;
+            $pen2->load_percent = 50;
+            $pen2->uncover();
             
-            print_r($c2);
+            print_r($pen2);
                 
             echo "<br/>";
             echo "<hr>";
             
-            // Testando instancias de objetos tipo Mouse
+            // Testing objects instances - Mouse Class
             require_once 'Mouse.php';
             
             $m1 = new Mouse;
-            $m1->modelo = "Motospeed V30";
-            $m1->peso = "132g";
-            $m1->dimensoes = "128mm de altura x 67mm de largura x 41mm de altura";
+            $m1->model = "Motospeed V30";
+            $m1->weight = "132g";
+            $m1->dimensions = "128mm of length x 67mm of width x 41mm of height";
             //$m1->dimensoes = "128x67x41";
-            $m1->nro_botoes = 4;
+            $m1->buttons_number = 4;
             $m1->max_dpi = 7000;
-            $m1->iluminacao_personalizada = true;
-            $m1->tamanho_fio = 1.5;
+            $m1->personalized_illumination = true;
+            $m1->wire_size = 1.5;
             
-            $m1->AcenderLeds();
+            $m1->turnLedsOn();
             
             print_r($m1);
             
             echo "<br/><br/>";
             
             $m2 = new Mouse;
-            $m2->modelo = "Microsoftt Mobile 8000";
-            $m2->nro_botoes = 3;
-            $m2->peso = 120;
-            $m2->iluminacao_personalizada = false;
+            $m2->model = "Microsoftt Mobile 8000";
+            $m2->buttons_number = 3;
+            $m2->weight = 120;
+            $m2->personalized_illumination = false;
             
-            $m2->AcenderLeds();
+            $m2->turnLedsOn();
             
             print_r($m2);
             
             echo "<br/>";
             echo "<hr>";
             
-            // Testando instancias de objetos tipo Compromisso
-            require_once 'Compromisso.php';
+            // Testing objects instances - Appointment Class
+            require_once 'Appointment.php';
          
-            $compromisso1 = new Compromisso;
-            $compromisso1->data = "10/08";
-            $compromisso1->local = "Fatec Americana";
-            $compromisso1->com_quem = "Rodrigo";
-            $compromisso1->situacao = "marcado";
+            $appointment1 = new Appointment;
+            $appointment1->date = "10/08";
+            $appointment1->place = "Fatec Americana";
+            $appointment1->with = "Rodrigo";
+            $appointment1->situation = "scheduled";
          
-            echo "<p>Compromisso:</p>";
-            echo "<p>Data: $compromisso1->data</p>";
-            echo "<p>Local: $compromisso1->local</p>";
-            echo "<p>Com: $compromisso1->com_quem</p>";
-            echo "<p>Situação: $compromisso1->situacao</p>";
+            echo "<p>Appointment:</p>";
+            echo "<p>Date: $appointment1->date</p>";
+            echo "<p>Place: $appointment1->place</p>";
+            echo "<p>With: $appointment1->with</p>";
+            echo "<p>Situation: $appointment1->situation</p>";
          
-            $compromisso1->adiar();
+            $compromisso1->postpone();
          
-            echo "<p>Situação: $compromisso1->situacao</p>";
+            echo "<p>Situation: $appointment1->situation</p>";
         ?>
     </body>
 </html>
