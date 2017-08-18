@@ -11,7 +11,7 @@
             require_once 'Pen.php';
             
             $pen1 = new Pen;
-            $pen1->mode = "Bic Cristal";
+            $pen1->model = "Bic Cristal";
             $pen1->color = "Blue";
             $pen1->tip = 0.5;
             $pen1->load_percent = 70;
