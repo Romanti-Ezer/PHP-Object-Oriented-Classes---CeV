@@ -81,7 +81,7 @@
             echo "<p>With: $appointment1->with</p>";
             echo "<p>Situation: $appointment1->situation</p>";
          
-            $compromisso1->postpone();
+            $appointment1->postpone();
          
             echo "<p>Situation: $appointment1->situation</p>";
         ?>
