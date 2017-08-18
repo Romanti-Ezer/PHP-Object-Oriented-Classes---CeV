@@ -1,6 +1,6 @@
 <?php
 
-class Caneta {
+class Pen {
     var $model;
     var $color;
     var $tip;
