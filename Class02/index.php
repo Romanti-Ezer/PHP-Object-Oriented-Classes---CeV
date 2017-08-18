@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>Aula 02 - POO</title>
+        <title>Class 02 - OOP</title>
     </head>
     <body>
         <?php
