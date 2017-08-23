@@ -5,4 +5,4 @@ Files created during the sixth PHP Object-Oriented Class - Curso em Vídeo (CeV)
 - Creation and implementation of Interfaces to achieve Encapsulation;
 - Advantages and objectives of Encapsulation;
 
-Example created: remote controll
+Example created: remote control
