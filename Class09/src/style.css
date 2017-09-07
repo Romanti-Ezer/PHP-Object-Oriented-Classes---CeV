@@ -1,0 +1,31 @@
+body {
+    /*background-color: black;*/
+    color: white;
+    font: 13pt Arial;
+    background: url("wallpaper-book.jpg") no-repeat top center fixed;
+    background-size: cover;
+}
+
+div {
+    display: block;
+    postion: absolute;
+    background-color: black;
+    margin: 100px auto 100px auto;
+    padding: 5px;
+    width: 40%;
+    text-align: center;
+    box-shadow: 1px 1px 4px 3px darkred;
+    font-weight: bold;
+    min-width: 300px;
+    min-height: 50%;
+}
+
+h1{
+    font: 35pt Calibri;
+    color: red;
+    text-shadow: 1px 1px darkred;
+}
+
+h2{
+    border-bottom: 1px solid darkred;
+}
