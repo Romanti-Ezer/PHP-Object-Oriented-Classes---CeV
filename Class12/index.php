@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>Class 12 - OOP</title>
     </head>
     <body>
         <?php
@@ -20,7 +20,7 @@
             require_once 'Macaw.php';
             
             //$a = new Animal;
-			$m = new Mammal();
+            $m = new Mammal();
             $b = new Bird();
             $r = new Reptile();
 			$f = new Fish;
@@ -60,10 +60,10 @@
             $b->makeSound();
             $b->construcNeast();
 			
-			echo "<hr>";
-			
-			$k->moveAround();
-			$t->moveAround();
+            echo "<hr>";
+
+            $k->moveAround();
+            $t->moveAround();
 			
         ?>
     </body>

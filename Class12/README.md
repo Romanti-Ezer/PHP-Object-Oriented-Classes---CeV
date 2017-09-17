@@ -2,6 +2,6 @@
 Files created during the twelfth PHP Object-Oriented Class - Curso em Vídeo (CeV).
 
 - Starting with Polymorphism;
-- Methods assignatures;
+- Methods signatures;
 - Types of Polymorphism: Overriding and Overloading;
 - Using Overriding.

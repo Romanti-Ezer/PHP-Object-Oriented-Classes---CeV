@@ -45,7 +45,7 @@ class Fighter {
     }
     
     
-    //Métodos especiais
+    //Special Methods
     
             
     function __construct($na, $co, $ag, $he, $we, $wi, $lo, $dr) {

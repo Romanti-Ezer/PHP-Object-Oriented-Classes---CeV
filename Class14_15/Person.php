@@ -1,14 +1,16 @@
 <?php
 
-class Person {
-    private $name;
-    private $age;
-    private $sex;
+abstract class Person {
+    protected $name;
+    protected $age;
+    protected $sex;
+    protected $experience;
     
     function __construct($name, $age, $sex) {
         $this->setName($name);
         $this->setAge($age);
         $this->setSex($sex);
+        $this->setExperience(0);
     }
 
     
@@ -24,6 +26,10 @@ class Person {
         return $this->sex;
     }
 
+    function getExperience() {
+        return $this->experience;
+    }
+
     function setName($name) {
         $this->name = $name;
     }
@@ -36,9 +42,11 @@ class Person {
         $this->sex = $sex;
     }
 
-    // Method
+    function setExperience($experience) {
+        $this->experience = $experience;
+    }
     
-    public function completeYear(){
-        $this->setAge($this->getAge() + 1);
+    protected function gainExperience($n){
+        $this->setExperience($this->getExperience()+$n);
     }
 }

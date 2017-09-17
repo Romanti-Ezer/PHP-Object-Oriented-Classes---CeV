@@ -19,14 +19,9 @@
             $f[4] = new Fighter("Ufocobol", "Brazil", 37, 1.70, 119.3, 5, 4, 3);
             $f[5] = new Fighter("Nerdaard", "USA", 30, 1.81, 105.7, 12, 2, 4);
             
-            //$l[0]->apresentar();
-            
             $UEC01 = new Fight;
             $UEC01->markFight($f[2],$f[3]);
             $UEC01->mFight();
-
-            
-            
         ?>
         </div>
     </body>

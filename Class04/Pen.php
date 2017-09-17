@@ -29,19 +29,19 @@ class Pen {
     }
 
     function setModel($model) {
-        $this->modelo = $model;
+        $this->model = $model;
     }
 
     function setTip($tip) {
-        $this->ponta = $tip;
+        $this->tip = $tip;
     }
 
     function setColor($color) {
-        $this->cor = $color;
+        $this->color = $color;
     }
 
     function setCovered($covered) {
-        $this->tampada = $covered;
+        $this->covered = $covered;
     }
 
 

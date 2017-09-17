@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>Class 11 - OOP</title>
     </head>
     <body>
         <pre>

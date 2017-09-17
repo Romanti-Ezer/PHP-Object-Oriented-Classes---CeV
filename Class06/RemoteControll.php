@@ -11,27 +11,27 @@ class RemoteControll implements Controller {
         $this->setPlaying(false);
     }
     
-    function getVolume() {
+    private function getVolume() {
         return $this->volume;
     }
 
-    function getStatus() {
+    private function getStatus() {
         return $this->status;
     }
 
-    function getPlaying() {
+    private function getPlaying() {
         return $this->playing;
     }
 
-    function setVolume($volume) {
+    private function setVolume($volume) {
         $this->volume = $volume;
     }
 
-    function setStatus($status) {
+    private function setStatus($status) {
         $this->status = $status;
     }
 
-    function setPlaying($playing) {
+    private function setPlaying($playing) {
         $this->playing = $playing;
     }
 
